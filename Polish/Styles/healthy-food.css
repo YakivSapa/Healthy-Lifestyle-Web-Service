@@ -1,0 +1,40 @@
+#navbar-right{
+    margin-right: 20px;
+}
+#navbar-dropdown{
+    margin-right: 20px;
+}
+body{
+    background: url("pictures/wallpaper/wallpaper1.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+h1{
+    padding-top: 3vh;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vh;
+    font-size: large;
+    padding-bottom: 10vh;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vh;
+}
+#fastFood{
+    margin-bottom: 1vh;
+}
+h3{
+    padding-top: 2vh;
+}
+#source{
+    direction: rtl;
+}
+#return{
+    padding-left: 10vh;
+    padding-top: 2vh;
+    text-decoration: none;
+    font-size: 19px;
+}

@@ -1,0 +1,25 @@
+#navbar-right{
+    margin-right: 20px;
+}
+#navbar-dropdown{
+    margin-right: 20px;
+}
+body{
+    background: url("pictures/wallpaper/wallpaper1.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+#registrationForm{
+    padding: 3vh;
+    width: fit-content;
+    border-radius: 3vh;
+}
+#sideNote{
+    margin-top: 3vh;
+    margin-bottom: 20vh;
+}
+#heading{
+    margin-top: 10vh; 
+}
+#subtext{
+    margin-top: 5vh;
+}

@@ -1,0 +1,80 @@
+#navbar-right{
+    margin-right: 20px;
+}
+#navbar-dropdown{
+    margin-right: 20px;
+}
+body{
+    background: url("pictures/wallpaper/wallpaper1.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+#bmiForm{
+    padding-left: 60vh;
+    padding-right: 60vh;
+}
+#result{
+    float: right;
+    position: relative;
+    right: 3px;
+    top: 3px;
+    font-size: 3vh;
+    text-align: center;
+}
+#bottomTextPar1{
+    margin-bottom: 1vh;
+}
+#formula{
+    margin: 0 60vh;
+}
+#formula2{
+    margin: 0 60vh;
+}
+.table-bordered{
+    border-radius: 15px;
+}
+.table{
+    padding: 20px;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+tr{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    padding: 10px 30px;
+}
+/* th:first-child th:first-child{
+    border-top-left-radius: 10px;
+}
+th:first-child th:last-child{
+    border-top-right-radius: 10px;
+  }
+/* tr:first-child th:last-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} */
+/* tr:last-child td:first-child{
+    border-bottom-left-radius: 10px;
+}
+tr:last-child td:last-child{
+    border-bottom-right-radius: 10px;
+} */
+
+/*第一欄第一列：左上*/
+tr:first-child td:first-child{
+    border-top-left-radius: 10px;
+  }
+  /*第一欄最後列：左下*/
+  tr:last-child td:first-child{
+    border-bottom-left-radius: 10px;
+  }
+  /*最後欄第一列：右上*/
+  tr:first-child td:last-child{
+    border-top-right-radius: 10px;
+  }
+  /*最後欄第一列：右下*/
+  tr:last-child td:last-child{
+    border-bottom-right-radius: 10px;
+  }

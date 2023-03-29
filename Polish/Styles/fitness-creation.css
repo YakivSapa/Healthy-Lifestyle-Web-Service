@@ -1,0 +1,30 @@
+#navbar-right{
+    margin-right: 20px;
+}
+#navbar-dropdown{
+    margin-right: 20px;
+}
+body{
+    background: url("pictures/wallpaper/wallpaper1.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+#exerciseInput{
+    display: block;
+    margin-top: 5vh;
+    margin-right: auto;
+    margin-left: auto;
+    width: 13vw;
+}
+.btn{
+    margin-top: 2vh;
+}
+#endButton{
+    width: 10vw;
+    height: 7vh;
+}
+#return{
+    padding-left: 10vh;
+    padding-top: 3vh;
+    text-decoration: none;
+    font-size: 19px;
+}

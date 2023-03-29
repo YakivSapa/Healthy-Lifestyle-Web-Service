@@ -1,0 +1,45 @@
+#navbar-right{
+    margin-right: 20px;
+}
+#navbar-dropdown{
+    margin-right: 20px;
+}
+body{
+    background: url("pictures/wallpaper/wallpaper1.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+h2{
+    padding-top: 4vh;
+}
+.card{
+    height: 20vh;
+    width: 10vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+h3{
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+#cards{
+    padding-bottom: 5vh;
+}
+.deleteButton{
+    text-decoration: none;
+    color: black !important;
+    display: block;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+#foodForm{
+    padding-left: 95vh;
+    padding-top: 2vh;
+}
+#return{
+    padding-left: 10vh;
+    padding-top: 3vh;
+    text-decoration: none;
+    font-size: 19px;
+}

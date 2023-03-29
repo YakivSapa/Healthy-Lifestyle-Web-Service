@@ -1,0 +1,17 @@
+#navbar-right{
+    margin-right: 20px;
+}
+#navbar-dropdown{
+    margin-right: 20px;
+}
+body{
+    background: url("pictures/wallpaper/wallpaper1.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+h1{
+    padding-top: 3vh;
+}
+/* .row{
+    margin-left: 0px;
+    margin-right: 0px;
+} */

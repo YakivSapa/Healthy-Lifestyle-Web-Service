@@ -1,0 +1,53 @@
+#navbar-right{
+    margin-right: 20px;
+}
+#navbar-dropdown{
+    margin-right: 20px;
+}
+body{
+    background: url("pictures/wallpaper/wallpaper1.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+.row{
+    padding-top: 2vh;
+    display: flex;
+    align-self: center;
+}
+.active{
+    border-color: none !important;
+}
+.ulHeadings{
+    color: white !important;
+}
+#formButton{
+    color: white !important;
+}
+li span {
+    float: right;
+    text-align: center;
+    color: white;
+    width: 0;
+    opacity: 0;
+    transition: 0.2s;
+}
+li:hover span {
+    opacity: 1;
+    width: 20px;
+}
+img{
+    height: 20px;
+    width: 20px;
+}
+.catalogueList{
+    text-decoration: none !important;
+    color: black !important;
+}
+.lists{
+    padding-bottom: 5vh;
+}
+#return{
+    padding-left: 10vh;
+    padding-top: 3vh;
+    text-decoration: none;
+    font-size: 19px;
+}
